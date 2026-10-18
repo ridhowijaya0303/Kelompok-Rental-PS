@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus PlayStation - Rental PS4, PS5 & VIP Gaming Lounge</title>
+    <meta name="description" content="Rental PlayStation 4 & 5 terbaik, terlengkap, dan paling nyaman. Ruang VIP full AC, TV 4K HDR, game original update terbaru, stik responsif, dan bisa sewa bawa pulang.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Glowing Background Grid -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid-overlay"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <div class="logo-icon">
+                    <i class="fa-brands fa-playstation"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">NEXUS</span>
+                    <span class="logo-subtitle">RENTAL PS</span>
+                </div>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Beranda</a>
+                <a href="#paket" class="nav-link">Paket Sewa</a>
+                <a href="#game" class="nav-link">Katalog Game</a>
+                <a href="#fasilitas" class="nav-link">Fasilitas</a>
+                <a href="#kalkulator" class="nav-link">Kalkulator Biaya</a>
+                <a href="#kontak" class="nav-link">Lokasi & Kontak</a>
+                <a href="#booking" class="btn btn-primary nav-cta">
+                    <i class="fa-solid fa-gamepad"></i> Booking Sekarang
+                </a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#booking" class="btn btn-sm btn-primary hide-mobile">
+                    <i class="fa-solid fa-bolt"></i> Booking
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Rental PS4 & PS5 #1 Paling Nyaman</span>
+                </div>
+                <h1 class="hero-title">
+                    Level Up Pengalaman <span class="gradient-text">Gaming Next-Gen</span> Bersama Nexus
+                </h1>
+                <p class="hero-desc">
+                    Nikmati sensasi gaming terbaik dengan konsol PS5 & PS4 Pro original, TV 4K HDR 120Hz, stik anti-drift, ruangan full AC sejuk, sofa empuk, dan ratusan game populer ter-update!
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#paket" class="btn btn-primary btn-lg">
+                        <i class="fa-solid fa-tags"></i> Lihat Paket & Tarif
+                    </a>
+                    <a href="#kalkulator" class="btn btn-outline btn-lg">
+                        <i class="fa-solid fa-calculator"></i> Hitung Biaya Sewa
+                    </a>
+                </div>
+
+                <!-- Live Quick Stats -->
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Unit PS4 & PS5</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label">Koleksi Game Hits</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4K</div>
+                        <div class="stat-label">TV 120Hz HDR</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4.9 ★</div>
+                        <div class="stat-label">Rating Gamer Puas</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="visual-floating-badge badge-top">
+                        <i class="fa-solid fa-circle-check text-cyan"></i>
+                        <div>
+                            <strong>PS5 Ready!</strong>
+                            <small>DualSense Haptic Feedback</small>
+                        </div>
+                    </div>
+                    
+                    <div class="console-showcase">
+                        <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=700&q=80" alt="PlayStation 5 Console" class="showcase-img">
+                        <div class="ps-shapes">
+                            <span class="shape s-triangle">▲</span>
+                            <span class="shape s-circle">●</span>
+                            <span class="shape s-cross">✕</span>
+                            <span class="shape s-square">■</span>
+                        </div>
+                    </div>
+
+                    <div class="visual-floating-badge badge-bottom">
+                        <i class="fa-solid fa-wifi text-accent"></i>
+                        <div>
+                            <strong>Ultra Fast WiFi</strong>
+                            <small>Multiplayer Tanpa Lag</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Running Highlights Marquee -->
+    <div class="marquee-bar">
+        <div class="marquee-track">
+            <span><i class="fa-solid fa-fire"></i> EA SPORTS FC 25 READY</span>
+            <span><i class="fa-solid fa-star"></i> RUANG VIP PRIVATE</span>
+            <span><i class="fa-solid fa-snowflake"></i> FULL AC DINGIN MAKSIMAL</span>
+            <span><i class="fa-solid fa-gamepad"></i> STIK ORIGINAL NO-DRIFT</span>
+            <span><i class="fa-solid fa-truck-ramp-box"></i> SEWA BAWA PULANG TERSEDIA</span>
+            <span><i class="fa-solid fa-tv"></i> TV 55" & 65" 4K OLED</span>
+            <span><i class="fa-solid fa-fire"></i> EA SPORTS FC 25 READY</span>
+            <span><i class="fa-solid fa-star"></i> RUANG VIP PRIVATE</span>
+            <span><i class="fa-solid fa-snowflake"></i> FULL AC DINGIN MAKSIMAL</span>
+            <span><i class="fa-solid fa-gamepad"></i> STIK ORIGINAL NO-DRIFT</span>
+        </div>
+    </div>
+
+    <!-- Pricing / Paket Sewa Section -->
+    <section class="section" id="paket">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">PILIHAN PAKET</span>
+                <h2 class="section-title">Tarif Rental Transparan & Terjangkau</h2>
+                <p class="section-desc">Pilih paket bermain di tempat (Reguler / VIP) atau sewa harian bawa pulang ke rumah untuk keseruan tanpa batas.</p>
+                
+                <!-- Package Filter Switch -->
+                <div class="package-tab-group">
+                    <button class="pkg-tab-btn active" data-target="semua">Semua Paket</button>
+                    <button class="pkg-tab-btn" data-target="billing">Main di Tempat</button>
+                    <button class="pkg-tab-btn" data-target="bawa-pulang">Sewa Bawa Pulang</button>
+                </div>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Card 1: PS4 Reguler -->
+                <div class="pricing-card" data-category="billing">
+                    <div class="card-badge">Paling Hemat</div>
+                    <div class="pricing-header">
+                        <div class="icon-circle">
+                            <i class="fa-brands fa-playstation"></i>
+                        </div>
+                        <h3>PS4 Reguler</h3>
+                        <p class="pricing-sub">Seru main berdua dengan TV 43" Full HD</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">Rp</span>
+                        <span class="price">8.000</span>
+                        <span class="unit">/ Jam</span>
+                    </div>
+                    <div class="package-options">
+                        <span class="promo-pill">Paket 3 Jam: Rp 22.000</span>
+                        <span class="promo-pill">Paket 5 Jam: Rp 35.000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Konsol PS4 Slim / Pro</li>
+                        <li><i class="fa-solid fa-circle-check"></i> TV 43" Full HD Crystal Clear</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 2 Stik DualShock 4 Wireless</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Bebas ganti semua game terinstal</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Ruangan Ber-AC & Sofa Nyaman</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block select-package-btn" data-console="ps4" data-type="onsite" data-hours="1">
+                        Pilih Paket Ini
+                    </button>
+                </div>
+
+                <!-- Card 2: PS5 Reguler (Featured) -->
+                <div class="pricing-card featured" data-category="billing">
+                    <div class="featured-ribbon">POPULER</div>
+                    <div class="pricing-header">
+                        <div class="icon-circle accent">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3>PS5 Reguler</h3>
+                        <p class="pricing-sub">Next-Gen Gaming 4K 120Hz & DualSense</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">Rp</span>
+                        <span class="price">15.000</span>
+                        <span class="unit">/ Jam</span>
+                    </div>
+                    <div class="package-options">
+                        <span class="promo-pill">Paket 3 Jam: Rp 40.000</span>
+                        <span class="promo-pill">Paket 5 Jam: Rp 65.000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Konsol PlayStation 5 Ultra HD</li>
+                        <li><i class="fa-solid fa-circle-check"></i> TV 55" 4K HDR 120Hz Low Latency</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 2 Stik DualSense Haptic Feedback</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Game Terbaru: FC 25, Wukong, SM 2</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Sofa Gaming Reclining Empuk</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Free Air Mineral Dingin</li>
+                    </ul>
+                    <button class="btn btn-primary btn-block select-package-btn" data-console="ps5" data-type="onsite" data-hours="3">
+                        Pilih Paket Ini
+                    </button>
+                </div>
+
+                <!-- Card 3: PS5 VIP Room -->
+                <div class="pricing-card vip" data-category="billing">
+                    <div class="card-badge vip-badge"><i class="fa-solid fa-crown"></i> VIP Lounge</div>
+                    <div class="pricing-header">
+                        <div class="icon-circle vip-icon">
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+                        <h3>PS5 VIP Private</h3>
+                        <p class="pricing-sub">Privasi maksimal, TV 65" OLED & Dolby Atmos</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">Rp</span>
+                        <span class="price">30.000</span>
+                        <span class="unit">/ Jam</span>
+                    </div>
+                    <div class="package-options">
+                        <span class="promo-pill">Paket 3 Jam: Rp 80.000</span>
+                        <span class="promo-pill">Paket Begadang (6 Jam): Rp 150.000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Ruang Pribadi Kedap Suara (AC Dingin)</li>
+                        <li><i class="fa-solid fa-circle-check"></i> TV 65" 4K OLED + Dolby Atmos Soundbar</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 2-4 Stik DualSense PS5</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Sofa Bed Premium & Mini Refrigerator</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Free Snack & Minuman Dingin</li>
+                        <li><i class="fa-solid fa-circle-check"></i> PS Plus Deluxe Access</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block select-package-btn" data-console="ps5-vip" data-type="onsite" data-hours="3">
+                        Pilih Paket Ini
+                    </button>
+                </div>
+
+                <!-- Card 4: Sewa PS4 Bawa Pulang -->
+                <div class="pricing-card" data-category="bawa-pulang">
+                    <div class="card-badge">Take Home</div>
+                    <div class="pricing-header">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-house-laptop"></i>
+                        </div>
+                        <h3>Sewa PS4 Bawa Pulang</h3>
+                        <p class="pricing-sub">Main sepuasnya bareng keluarga di rumah</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">Rp</span>
+                        <span class="price">75.000</span>
+                        <span class="unit">/ Hari (24 Jam)</span>
+                    </div>
+                    <div class="package-options">
+                        <span class="promo-pill">Paket 3 Hari: Rp 200.000</span>
+                        <span class="promo-pill">Paket 7 Hari: Rp 420.000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check"></i> 1 Unit Mesin PS4 Full Game</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 2 Stik Original Wireless</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Kabel Lengkap (HDMI, Power, Charger)</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Tas Eksklusif Anti-Benturan</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Syarat Mudah: KTP & KK Asli</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block select-package-btn" data-console="ps4" data-type="takeaway" data-hours="24">
+                        Sewa Bawa Pulang
+                    </button>
+                </div>
+
+                <!-- Card 5: Sewa PS5 Bawa Pulang -->
+                <div class="pricing-card featured" data-category="bawa-pulang">
+                    <div class="featured-ribbon">NEXT-GEN HOME</div>
+                    <div class="pricing-header">
+                        <div class="icon-circle accent">
+                            <i class="fa-solid fa-house-chimney-window"></i>
+                        </div>
+                        <h3>Sewa PS5 Bawa Pulang</h3>
+                        <p class="pricing-sub">Sensasi PlayStation 5 eksklusif di rumahmu</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">Rp</span>
+                        <span class="price">150.000</span>
+                        <span class="unit">/ Hari (24 Jam)</span>
+                    </div>
+                    <div class="package-options">
+                        <span class="promo-pill">Paket 3 Hari: Rp 400.000</span>
+                        <span class="promo-pill">Paket 7 Hari: Rp 850.000</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check"></i> 1 Unit Konsol PS5 Slim / Fat</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 2 Stik DualSense Wireless Ori</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Akun Game Lengkap & Up to Date</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Kabel Lengkap + Tas Koper Hardcase</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Bisa Antar-Jemput ke Rumah (S&K)</li>
+                    </ul>
+                    <button class="btn btn-primary btn-block select-package-btn" data-console="ps5" data-type="takeaway" data-hours="24">
+                        Sewa Bawa Pulang
+                    </button>
+                </div>
+
+                <!-- Card 6: PS VR2 Experience -->
+                <div class="pricing-card" data-category="billing">
+                    <div class="card-badge vr-badge"><i class="fa-solid fa-vr-cardboard"></i> Virtual Reality</div>
+                    <div class="pricing-header">
+                        <div class="icon-circle vr-icon">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h3>PlayStation VR2</h3>
+                        <p class="pricing-sub">Dunia 3D virtual super nyata 4K OLED HDR</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">Rp</span>
+                        <span class="price">25.000</span>
+                        <span class="unit">/ Jam</span>
+                    </div>
+                    <div class="package-options">
+                        <span class="promo-pill">Paket 2 Jam: Rp 45.000</span>
+                        <span class="promo-pill">Add-on PS5: +Rp 15.000/Jam</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Headset PS VR2 + Sense Controllers</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Layar 4K HDR OLED 120Hz Eye-Tracking</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Game: Horizon Call of Mountain, RE4 VR</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Gran Turismo 7 VR + Steering Wheel Ready</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Didampingi Operator Berpengalaman</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block select-package-btn" data-console="psvr2" data-type="onsite" data-hours="1">
+                        Pilih Paket VR2
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Catalog Section with Filter & Search -->
+    <section class="section bg-darker" id="game">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">KOLEKSI LENGKAP</span>
+                <h2 class="section-title">Katalog Game Terpopuler</h2>
+                <p class="section-desc">Cari game favoritmu! Semua judul original, berlisensi, dan ter-update dengan patch serta DLC terbaru.</p>
+            </div>
+
+            <!-- Game Search & Filter Toolbar -->
+            <div class="catalog-toolbar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="gameSearchInput" placeholder="Cari judul game (misal: FC 25, Wukong, Tekken)...">
+                    <button id="clearSearch" class="btn-clear" title="Hapus pencarian"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+
+                <div class="category-chips" id="categoryChips">
+                    <button class="chip active" data-category="all">Semua Game</button>
+                    <button class="chip" data-category="sports">Sepakbola & Olahraga</button>
+                    <button class="chip" data-category="action">Action & RPG</button>
+                    <button class="chip" data-category="fighting">Fighting</button>
+                    <button class="chip" data-category="racing">Balapan</button>
+                    <button class="chip" data-category="party">Multiplayer / Co-op</button>
+                </div>
+            </div>
+
+            <!-- Games Grid -->
+            <div class="games-grid" id="gamesGrid">
+                <!-- Game items dynamically populated by JavaScript -->
+            </div>
+
+            <div class="catalog-empty" id="catalogEmpty" style="display: none;">
+                <i class="fa-solid fa-gamepad-slash fa-3x"></i>
+                <h3>Game Tidak Ditemukan</h3>
+                <p>Maaf, game yang kamu cari belum tercantum atau keyword salah. Hubungi admin kami untuk request instalasi game favoritmu!</p>
+                <button class="btn btn-outline" id="resetCatalogFilter">Lihat Semua Game</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fasilitas Section -->
+    <section class="section" id="fasilitas">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">KENYAMANAN MAKSIMAL</span>
+                <h2 class="section-title">Kenapa Harus Rental di Nexus?</h2>
+                <p class="section-desc">Kami memprioritaskan kenyamanan, performa stik, dan kebersihan agar sesi mabar kamu semakin seru tanpa gangguan.</p>
+            </div>
+
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-snowflake"></i>
+                    </div>
+                    <h3>Ruangan Full AC Dingin</h3>
+                    <p>Suhu ruangan selalu dijaga sejuk dan nyaman. Bebas gerah walau main berjam-jam saat match panas.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-tv"></i>
+                    </div>
+                    <h3>TV 4K HDR Gaming 120Hz</h3>
+                    <p>Layar jernih resolusi tinggi dengan refresh rate tinggi dan game mode untuk respon instan tanpa ghosting.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <h3>Stik Original Anti-Drift</h3>
+                    <p>Semua controller dicek rutin setiap hari. Tombol empuk, haptic feedback responsif, no drift menjengkelkan!</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-couch"></i>
+                    </div>
+                    <h3>Sofa Gaming Super Empuk</h3>
+                    <p>Sofa ergonomis dirancang khusus untuk kenyamanan posisi duduk lama agar punggung tidak cepat pegal.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-burger"></i>
+                    </div>
+                    <h3>Snack & Coffee Bar</h3>
+                    <p>Lapar saat gaming? Tersedia aneka minuman dingin, kopi kekinian, mi instan, dan cemilan gurih harga ramah kantong.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3>WiFi Gigastream 150 Mbps</h3>
+                    <p>Koneksi internet dedicated super stabil untuk update konten game atau browsing santai saat istirahat.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>Area Parkir Luas & Aman</h3>
+                    <p>Parkiran motor & mobil luas dilengkapi dengan pantauan CCTV 24 jam dan penjaga keamanan ramah.</p>
+                </div>
+
+                <div class="facility-card">
+                    <div class="f-icon">
+                        <i class="fa-solid fa-mosque"></i>
+                    </div>
+                    <h3>Musholla & Toilet Bersih</h3>
+                    <p>Fasilitas ibadah lengkap dengan mukena/sarung dan toilet bersih wangi terawat untuk kenyamanan kamu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Pricing Calculator & Booking Form -->
+    <section class="section bg-darker" id="kalkulator">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">KALKULATOR & PESAN LANGSUNG</span>
+                <h2 class="section-title">Hitung Biaya & Reservasi Slot</h2>
+                <p class="section-desc">Kalkulasi biaya sewa otomatis sesuai kebutuhanmu. Bisa langsung booking slot ke WhatsApp agar unit tidak diambil orang lain!</p>
+            </div>
+
+            <div class="booking-wrapper">
+                <!-- Calculator & Form -->
+                <div class="booking-form-card" id="booking">
+                    <div class="form-title">
+                        <i class="fa-solid fa-sliders"></i>
+                        <span>Konfigurasi Sewa</span>
+                    </div>
+
+                    <form id="rentalCalcForm">
+                        <!-- Tipe Sewa -->
+                        <div class="form-group">
+                            <label class="form-label">Tipe Rental:</label>
+                            <div class="radio-pill-group">
+                                <label class="radio-pill">
+                                    <input type="radio" name="rentalType" value="onsite" checked>
+                                    <span><i class="fa-solid fa-shop"></i> Main di Tempat</span>
+                                </label>
+                                <label class="radio-pill">
+                                    <input type="radio" name="rentalType" value="takeaway">
+                                    <span><i class="fa-solid fa-house"></i> Sewa Bawa Pulang</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Pilihan Konsol -->
+                        <div class="form-group">
+                            <label for="consoleType" class="form-label">Pilihan Konsol:</label>
+                            <select id="consoleType" class="form-control">
+                                <option value="ps4">PlayStation 4 Slim/Pro</option>
+                                <option value="ps5" selected>PlayStation 5 (Best Seller)</option>
+                                <option value="ps5-vip">PlayStation 5 (VIP Private Room)</option>
+                                <option value="psvr2">PlayStation VR2 Set</option>
+                            </select>
+                        </div>
+
+                        <!-- Durasi Sewa -->
+                        <div class="form-group">
+                            <div class="label-with-val">
+                                <label class="form-label" id="durationLabel">Durasi Sewa:</label>
+                                <span class="val-display" id="durationDisplay">3 Jam</span>
+                            </div>
+                            <input type="range" id="durationRange" min="1" max="10" value="3" step="1" class="custom-range">
+                            <div class="range-marks" id="rangeMarks">
+                                <span>1 Jam</span>
+                                <span>3 Jam</span>
+                                <span>5 Jam</span>
+                                <span>8 Jam</span>
+                                <span>10 Jam</span>
+                            </div>
+                        </div>
+
+                        <!-- Jumlah Stik Tambahan -->
+                        <div class="form-group" id="stickGroup">
+                            <label class="form-label">Total Stik:</label>
+                            <div class="stick-selector">
+                                <label class="stick-option">
+                                    <input type="radio" name="stickCount" value="2" checked>
+                                    <span>2 Stik (Bawaan)</span>
+                                </label>
+                                <label class="stick-option">
+                                    <input type="radio" name="stickCount" value="3">
+                                    <span>3 Stik (+Rp 5.000)</span>
+                                </label>
+                                <label class="stick-option">
+                                    <input type="radio" name="stickCount" value="4">
+                                    <span>4 Stik (+Rp 10.000)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Add-on Snack / Minuman -->
+                        <div class="form-group">
+                            <label class="form-label">Paket Tambahan (Opsional):</label>
+                            <div class="addon-checkboxes">
+                                <label class="checkbox-pill">
+                                    <input type="checkbox" id="addonSnack" value="15000">
+                                    <span><i class="fa-solid fa-cookie-bite"></i> Combo Snack + Soft Drink (+Rp 15.000)</span>
+                                </label>
+                                <label class="checkbox-pill">
+                                    <input type="checkbox" id="addonAntarJemput" value="20000" style="display:none;" class="takeaway-only-addon">
+                                    <span class="takeaway-only-addon" style="display:none;"><i class="fa-solid fa-truck"></i> Layanan Antar Jemput (+Rp 20.000)</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <hr class="form-divider">
+
+                        <!-- Data Diri Pemesan -->
+                        <div class="form-row">
+                            <div class="form-group col-half">
+                                <label for="custName" class="form-label">Nama Lengkap:</label>
+                                <input type="text" id="custName" class="form-control" placeholder="Contoh: Budi Santoso" required>
+                            </div>
+                            <div class="form-group col-half">
+                                <label for="custPhone" class="form-label">No. WhatsApp:</label>
+                                <input type="tel" id="custPhone" class="form-control" placeholder="Contoh: 08123456789" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-half">
+                                <label for="bookingDate" class="form-label">Tanggal Booking:</label>
+                                <input type="date" id="bookingDate" class="form-control" required>
+                            </div>
+                            <div class="form-group col-half">
+                                <label for="bookingTime" class="form-label">Jam Mulai:</label>
+                                <input type="time" id="bookingTime" class="form-control" value="14:00" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="custNote" class="form-label">Catatan Game Favorit / Request:</label>
+                            <input type="text" id="custNote" class="form-control" placeholder="Contoh: Mau langsung main FC 25 & Tekken 8">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="btnSubmitBooking">
+                            <i class="fa-brands fa-whatsapp"></i> Konfirmasi Booking via WhatsApp
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Live Price Estimate Receipt Summary -->
+                <div class="booking-summary-card">
+                    <div class="summary-header">
+                        <div class="summary-badge">Rincian Estimasi</div>
+                        <h3>Ringkasan Biaya Sewa</h3>
+                        <p class="summary-sub">Estimasi langsung berdasarkan pilihanmu</p>
+                    </div>
+
+                    <div class="summary-details">
+                        <div class="detail-row">
+                            <span class="detail-name">Tipe Layanan</span>
+                            <span class="detail-val" id="sumType">Main di Tempat</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-name">Konsol Pilihan</span>
+                            <span class="detail-val" id="sumConsole">PlayStation 5</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-name">Durasi Sewa</span>
+                            <span class="detail-val" id="sumDuration">3 Jam</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-name">Tarif Dasar</span>
+                            <span class="detail-val" id="sumBaseRate">Rp 40.000</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-name">Tambahan Stik</span>
+                            <span class="detail-val" id="sumSticks">Rp 0 (2 Stik)</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-name">Add-on Snack & Layanan</span>
+                            <span class="detail-val" id="sumAddons">Rp 0</span>
+                        </div>
+                        
+                        <div class="summary-divider"></div>
+
+                        <div class="total-row">
+                            <div class="total-label">
+                                <strong>Total Estimasi:</strong>
+                                <small>Termasuk PPN & Biaya Layanan</small>
+                            </div>
+                            <div class="total-price" id="sumTotal">
+                                Rp 40.000
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="summary-perks">
+                        <div class="perk-item">
+                            <i class="fa-solid fa-clock-rotate-left text-cyan"></i>
+                            <span>Slot di-keep hingga 15 menit setelah jam mulai</span>
+                        </div>
+                        <div class="perk-item">
+                            <i class="fa-solid fa-money-bill-wave text-green"></i>
+                            <span>Bayar di tempat: Cash, QRIS, Transfer BCA/Mandiri</span>
+                        </div>
+                        <div class="perk-item">
+                            <i class="fa-solid fa-shield-check text-accent"></i>
+                            <span>Tanpa deposit untuk main di tempat</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Gamers -->
+    <section class="section" id="testimoni">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">TESTIMONI GAMER</span>
+                <h2 class="section-title">Apa Kata Mereka Tentang Nexus?</h2>
+                <p class="section-desc">Ratusan komunitas gamer, pelajar, dan pekerja kantoran memilih Nexus sebagai tempat mabar favorit.</p>
+            </div>
+
+            <div class="testi-grid">
+                <div class="testi-card">
+                    <div class="testi-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testi-text">"Tempat ternyaman buat turnamen FC 25 sama temen-temen tongkrongan. TV-nya beneran 120Hz smooth banget, stik ori ga ada delay atau drift. AC-nya dingin pol!"</p>
+                    <div class="testi-author">
+                        <div class="author-avatar">RD</div>
+                        <div class="author-info">
+                            <h4>Rian Darmawan</h4>
+                            <span>Member Reguler • Mahasiswa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card featured-testi">
+                    <div class="testi-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testi-text">"VIP Room-nya gila sih! Private banget, TV OLED 65 inch sama soundbar Dolby Atmos bikin main God of War & Black Myth Wukong berasa di bioskop. Sangat worth it!"</p>
+                    <div class="testi-author">
+                        <div class="author-avatar vip-avatar">AS</div>
+                        <div class="author-info">
+                            <h4>Aditya Surya</h4>
+                            <span>VIP Member • Content Creator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testi-text">"Pernah sewa PS5 bawa pulang 3 hari buat weekend bareng keluarga. Unit bersih, tas koper aman, game-nya lengkap banget tinggal colok main. Prosesnya gampang & admin ramah."</p>
+                    <div class="testi-author">
+                        <div class="author-avatar">MS</div>
+                        <div class="author-info">
+                            <h4>Maya Sartika</h4>
+                            <span>Sewa Bawa Pulang • Ibu Rumah Tangga</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section bg-darker" id="faq">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">PERTANYAAN UMUM</span>
+                <h2 class="section-title">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+                <p class="section-desc">Semua yang perlu kamu ketahui sebelum datang atau menyewa PlayStation di tempat kami.</p>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Apakah harus booking terlebih dahulu sebelum datang?</span>
+                        <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Kamu bisa langsung datang (walk-in). Namun saat weekend atau sore hari, unit sering penuh. Kami sangat menyarankan reservasi terlebih dahulu lewat website ini atau WhatsApp agar unit favoritmu langsung siap saat kamu tiba.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Apa saja syarat untuk sewa PS bawa pulang ke rumah?</span>
+                        <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Syarat sangat mudah: Cukup titip 2 Identitas Asli yang masih berlaku (KTP Asli + SIM/KK/Kartu Mahasiswa) dan bukti alamat tempat tinggal (share live location). Unit akan dicek bersama sebelum diserahkan.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Berapa maksimal orang dalam satu meja rental?</span>
+                        <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Untuk meja Reguler nyaman untuk 2 sampai 4 orang pemain. Sedangkan untuk Ruang VIP Private dapat menampung hingga 6 orang dengan nyaman tanpa biaya tiket tambahan per orang.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Apakah bisa request instal game yang belum ada?</span>
+                        <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Tentu bisa! Jika game tersebut tersedia di PlayStation Store atau koleksi disk kami, kamu bisa request ke admin minimal 1 hari sebelum jadwal booking agar kami unduh dan siapkan lebih awal.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Metode pembayaran apa saja yang diterima?</span>
+                        <i class="fa-solid fa-chevron-down faq-arrow"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Kami menerima pembayaran Tunai (Cash), QRIS (GoPay, OVO, Dana, ShopeePay, BCA Mobile, dll.), serta Transfer Bank (BCA, Mandiri, BRI).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak & Lokasi Section -->
+    <section class="section" id="kontak">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">HUBUNGI KAMI</span>
+                <h2 class="section-title">Lokasi & Kontak Resmi</h2>
+                <p class="section-desc">Kunjungi lounge rental kami atau hubungi kami langsung via WhatsApp untuk pertanyaan instan.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <h3>Alamat Lounge</h3>
+                    <p>Jl. Boulevard Gaming No. 88, Kemang, Jakarta Selatan (Sebelah Kafe Kopi Senja)</p>
+                    <a href="https://maps.google.com" target="_blank" class="contact-link">
+                        Lihat di Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="c-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Jam Operasional</h3>
+                    <p>Senin - Kamis: 10.00 - 01.00 WIB</p>
+                    <p>Jumat - Minggu: 09.00 - 03.00 WIB (Bisa Paket Begadang)</p>
+                    <span class="open-status-badge"><i class="fa-solid fa-circle"></i> Buka Sekarang</span>
+                </div>
+
+                <div class="contact-card">
+                    <div class="c-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                    <h3>WhatsApp & Telepon</h3>
+                    <p>Respon cepat untuk reservasi & info ketersediaan unit sewa.</p>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Nexus%20Rental%20PS,%20saya%20mau%20tanya%20unit" target="_blank" class="btn btn-outline btn-sm">
+                        Chat Admin: 0812-3456-7890
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="c-icon"><i class="fa-brands fa-instagram"></i></div>
+                    <h3>Instagram & TikTok</h3>
+                    <p>Ikuti update event mingguan, mini turnamen FC 25, dan promo diskon sewa!</p>
+                    <a href="https://instagram.com" target="_blank" class="contact-link">
+                        @nexus.rentalps <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo-icon">
+                    <i class="fa-brands fa-playstation"></i>
+                </div>
+                <div>
+                    <h3 class="footer-title">NEXUS RENTAL PS</h3>
+                    <p class="footer-text">Lounge rental PlayStation modern pertama dengan konsep arena gaming, kenyamanan VIP, dan koleksi game terlengkap.</p>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Menu Cepat</h4>
+                    <a href="#hero">Beranda</a>
+                    <a href="#paket">Paket Sewa</a>
+                    <a href="#game">Katalog Game</a>
+                    <a href="#fasilitas">Fasilitas</a>
+                </div>
+                <div class="link-col">
+                    <h4>Konsol</h4>
+                    <a href="#paket">PlayStation 4 Pro</a>
+                    <a href="#paket">PlayStation 5 Disc/Digital</a>
+                    <a href="#paket">PlayStation 5 VIP</a>
+                    <a href="#paket">PlayStation VR2</a>
+                </div>
+                <div class="link-col">
+                    <h4>Bantuan</h4>
+                    <a href="#faq">Syarat & Ketentuan</a>
+                    <a href="#kalkulator">Hitung Biaya</a>
+                    <a href="#faq">Pertanyaan Umum</a>
+                    <a href="#kontak">Customer Support</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p>&copy; 2026 Nexus Rental PS. All rights reserved. Dibuat dengan HTML, CSS, dan JavaScript murni.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/6281234567890?text=Halo%20Admin%20Nexus%20Rental%20PS,%20saya%20mau%20tanya%20sewa%20PS" target="_blank" class="floating-wa" title="Hubungi Kami di WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="floating-tooltip">Chat Admin</span>
+    </a>
+
+    <!-- Booking Confirmation Modal Popup -->
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-dialog">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon-badge">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <h3>Konfirmasi Tiket Booking</h3>
+                <p>Silakan periksa detail pesanan Anda sebelum dikirim ke WhatsApp Admin.</p>
+            </div>
+            <div class="modal-body" id="modalBodyReceipt">
+                <!-- Injected via JS -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" id="modalCancel">Edit Kembali</button>
+                <button class="btn btn-primary" id="modalConfirmWA">
+                    <i class="fa-brands fa-whatsapp"></i> Buka WhatsApp & Kirim
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Element -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMsg">Pesan notifikasi</span>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
